@@ -81,8 +81,6 @@ def process_frame():
     cap.release()
     cv2.destroyAllWindows()
 
-
-
 def connect_to_server():
     sio.connect('http://localhost:8000')
     sio.wait()
@@ -90,17 +88,11 @@ def connect_to_server():
 @sio.event
 def connect():
     print('JJ connected to server')
-    
 
 @sio.event
 def disconnect():
     print('Disconnected from server')
 
-
-
 threading.Thread(target=connect_to_server).start()
 process_frame()
 # signal_file = 'jump_signal.txt'
-
-
-
