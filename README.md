@@ -2,7 +2,7 @@
 
 Flappy Fitness is an interactive fitness game that uses a camera to track exercises and provide real-time feedback. The game features three main exercises: squats, jumping jacks, and toe touches.
 
-![Flappy Fitness Logo](![Flappy Fitness](https://github.com/user-attachments/assets/04277aef-40bf-42c4-8f7c-ade62e6d2e25))
+(![Flappy Fitness](https://github.com/user-attachments/assets/04277aef-40bf-42c4-8f7c-ade62e6d2e25))
 
 ## Files and Their Purposes
 
