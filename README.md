@@ -52,6 +52,9 @@ Flappy Fitness is an interactive fitness game that uses a camera to track exerci
 - If you wish to contribute to the project, feel free to fork the repository and submit pull requests.
 - For any issues or feature requests, please open an issue on the repository.
 
+## Youtube Video Promotion
+https://youtu.be/Gxp1On56xcA
+
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
