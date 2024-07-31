@@ -2,7 +2,7 @@
 
 Flappy Fitness is an interactive fitness game that uses a camera to track exercises and provide real-time feedback. The game features three main exercises: squats, jumping jacks, and toe touches.
 
-(![Flappy Fitness](https://github.com/user-attachments/assets/04277aef-40bf-42c4-8f7c-ade62e6d2e25))
+![Flappy Fitness](https://github.com/user-attachments/assets/04277aef-40bf-42c4-8f7c-ade62e6d2e25)
 
 ## Files and Their Purposes
 
@@ -25,6 +25,8 @@ Flappy Fitness is an interactive fitness game that uses a camera to track exerci
 
 ## Gameplay Instructions
 
+![Screenshot 2024-07-31 002244](https://github.com/user-attachments/assets/050b2950-257c-438f-b23a-b5905b7987f0)
+
 1. **Starting the Game**:
     - When you start the game, it will connect to the server and wait for the player to begin.
     - The game will randomly select one of the three exercises: squats, jumping jacks, or toe touches.
@@ -43,6 +45,9 @@ Flappy Fitness is an interactive fitness game that uses a camera to track exerci
     - Make sure to follow the visual feedback to maintain proper form.
 
 ## Features
+
+![Screenshot 2024-07-31 001255](https://github.com/user-attachments/assets/06ee3ce5-f6ab-4733-8609-1bd56880eb5b)
+![Screenshot 2024-07-31 001400](https://github.com/user-attachments/assets/57e5709a-6d33-4a56-ba08-5764ca905e5b)
 
 - **Instruction Menu**: Provides the best instructions depending on the exercise.
 - **Real-Time Connection**: Ensures a real-time connection to Flappy Bird without any output delay.
