@@ -27,8 +27,7 @@ exercise = random.choice(["Jumping Jacks", "Squats", "Toe Touches"])
 
 # Function to process video frames
 def process_frame():
-    # cap = cv2.VideoCapture(0)
-    # cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
+
     global position, count, start_time, exercise
     while cap.isOpened():
         success, image = cap.read()
@@ -38,7 +37,7 @@ def process_frame():
 
         # Update exercise every 5 seconds
         current_time = time.time()
-        if current_time - start_time > 20:
+        if current_time - start_time > 10:
             start_time = current_time
             exercise = random.choice(["Jumping Jacks", "Squats", "Toe Touches"])
             
@@ -101,6 +100,3 @@ def disconnect():
 threading.Thread(target=connect_to_server).start()
 process_frame()
 # signal_file = 'jump_signal.txt'
-
-
-
