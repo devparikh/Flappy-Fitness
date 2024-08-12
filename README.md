@@ -1,6 +1,6 @@
 # Flappy Fitness
 
-Flappy Fitness is an interactive fitness game that uses a camera to track exercises and provide real-time feedback. The game features three main exercises: squats, jumping jacks, and toe touches.
+Flappy Fitness is an interactive fitness game that uses a camera to track exercises and provide real-time feedback. The game features three main exercises: squats, jumping jacks, and toe touches. Flappy Fitness uses a Pose Estimation algorithm in MediaPipe to detect the motion of specific body landmarks to determine whether a player is correctly performing the required exercise, and if it is then sending communicating this information through SocketIO to the PyGame program controlling the movements of the bird in a one-way flow of data. 
 
 ![Flappy Fitness](https://github.com/user-attachments/assets/04277aef-40bf-42c4-8f7c-ade62e6d2e25)
 
